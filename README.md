@@ -13,5 +13,9 @@ Aplicação de previsão do clima simples, feita para aprender svelte.
 * [Shadcn-svelte](https://shadcn-svelte.com): Biblioteca de componentes que facilita a criação de aplicações.
 * [WeatherAPI](https://www.weatherapi.com/): API que fornece acesso a dados meteorológicos e geográficos através de uma API RESTful em JSON/XML.
 
-## Imagem da aplicação
+## Imagens da aplicação
+### Modo claro
 ![image](https://github.com/Maruquitus/weather-web-app/assets/58173530/6482eae4-a380-43c4-a49e-acc9a55e07ab)
+### Modo escuro
+![image](https://github.com/Maruquitus/weather-web-app/assets/58173530/07074aea-7733-4fcf-aec1-0e8697b22256)
+
