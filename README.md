@@ -4,7 +4,7 @@ Aplicação de previsão do clima simples, feita para aprender svelte.
 ## 🛠️ Em progresso
 ### Características Principais
 * Mostra os dados do clima atual da cidade escolhida, além de previsões para os próximos horários e 7 dias da semana.
-* Modo escuro
+* Modo escuro.
 
 ## Tecnologias Utilizadas
 * [TypeScript](https://www.typescriptlang.org): Um superset do JavaScript que adiciona tipagem estática opcional ao código.
