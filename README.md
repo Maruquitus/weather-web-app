@@ -1,5 +1,6 @@
-# 🌧️Weather-web-app
-Aplicação de previsão do clima simples, feita para aprender svelte.
+# 🌧️Weather-web-app 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/556bd79e-dee2-4251-912c-f137e69cb6db/deploy-status)](https://app.netlify.com/sites/svelte-weather-web-app/deploys) <br>
+Aplicação de previsão do clima simples, feita para aprender svelte. <br>
 Disponível em https://svelte-weather-web-app.netlify.app/
 
 ## 🛠️ Em progresso
