@@ -1,5 +1,6 @@
 # 🌧️Weather-web-app
 Aplicação de previsão do clima simples, feita para aprender svelte.
+Disponível em https://svelte-weather-web-app.netlify.app/
 
 ## 🛠️ Em progresso
 ### Características Principais
