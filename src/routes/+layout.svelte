@@ -1,8 +1,6 @@
 <script lang="ts">
   import "../app.css";
-  import Fa from "svelte-fa";
   import { Input } from "$lib/components/ui/input";
-  import { faCloud } from "@fortawesome/free-solid-svg-icons";
   import { ModeWatcher } from "mode-watcher";
   import { Button } from "$lib/components/ui/button/index.js";
   import { Sun, Moon, Cloud } from "lucide-svelte";
