@@ -9,7 +9,9 @@ export async function load({ params }: { params: Params }) {
     getCurrentWeather(params.city_name),
     getWeekWeather(params.city_name),
     getDayWeather(params.city_name),
-  ]);
+  ]).catch((e: Error) => {
+    throw new Error("Não foi possível encontrar a cidade");
+  });
 
   return {
     current: currentWeather,
