@@ -41,7 +41,7 @@
     </div>
   </div>
   <Card.Root
-    class="row-start-1 row-end-4 col-start-2 row-span-4 h-full w-full text-left"
+    class="max-[1024px]:row-start-4 max-[1024px]:row-end-4 max-[1024px]:col-start-1 row-start-1 row-end-4 col-start-2 row-span-4 h-full w-full text-left"
   >
     <Card.Header>
       <Card.Title>Previsão dos próximos 7 dias</Card.Title>
@@ -49,22 +49,26 @@
     <Card.Content>
       {#each data.week as item, index}
         <div class={`h-20 w-full flex`}>
-          <h2 class="text-center my-auto font-semibold w-20">{item.date.slice(0, 1).toUpperCase() + item.date.slice(1)}</h2>
+          <h2 class="text-center my-auto font-semibold w-20">
+            {item.date.slice(0, 1).toUpperCase() + item.date.slice(1)}
+          </h2>
           <div class="flex -mr-20">
             <img
               alt="Clima no dia"
               class="scale-90"
               src={item.condition_icon.replaceAll("64", "128")}
             />
-            <h2 class="my-auto ml-2">{item.condition}</h2>
+            <h2 class="my-auto ml-2 max-[625px]:hidden">
+              {item.condition}
+            </h2>
           </div>
           <h2 class="text-center font-semibold text-xl ml-auto my-auto w-32">
             {item.maxtemp_c && Math.round(item.maxtemp_c)}/{item.mintemp_c &&
               Math.round(item.mintemp_c)} ºC
           </h2>
         </div>
-        {#if (index != 6)}
-        <Separator />
+        {#if index != 6}
+          <Separator />
         {/if}
       {/each}
     </Card.Content>
@@ -85,12 +89,13 @@
             alt="Clima no horário"
             src={item.condition_icon}
           />
-          <h2 class="text-center font-semibold text-xl">{item.temp} ºC</h2>
-        </div>    
-        {#if (index != 5)}
-        <Separator class="h-28" orientation="vertical" />
+          <h2 class="text-center font-semibold text-xl">
+            {Math.round(item.temp)} ºC
+          </h2>
+        </div>
+        {#if index != 5}
+          <Separator class="h-28" orientation="vertical" />
         {/if}
-        
       {/each}
     </Card.Content>
   </Card.Root>
