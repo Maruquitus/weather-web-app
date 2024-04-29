@@ -44,7 +44,7 @@
     class="max-[1024px]:row-start-4 max-[1024px]:row-end-4 max-[1024px]:col-start-1 row-start-1 row-end-4 col-start-2 row-span-4 h-full w-full text-left"
   >
     <Card.Header>
-      <Card.Title>Previsão dos próximos 7 dias</Card.Title>
+      <Card.Title>Previsão dos próximos dias</Card.Title>
     </Card.Header>
     <Card.Content>
       {#each data.week as item, index}
