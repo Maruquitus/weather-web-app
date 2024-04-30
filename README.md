@@ -5,7 +5,7 @@ Disponível em https://svelte-weather-web-app.netlify.app/
 
 ## 🛠️ Em progresso
 ### Características Principais
-* Mostra os dados do clima atual da cidade escolhida, além de previsões para os próximos horários e 7 dias da semana.
+* Mostra os dados do clima atual da cidade escolhida, além de previsões para os próximos horários e dias da semana.
 * Modo escuro.
 
 ## Tecnologias Utilizadas
